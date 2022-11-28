@@ -38,5 +38,4 @@ app.layout = html.Div(children=[
 ])
 ​
 ​
-if __name__ == '__main__':
-    app.run_server(debug=True)
+st.plotly_chart(fig, use_container_width=True)
